@@ -1,5 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
 *{
-  padding: 0px;
-  margin: 0px;
   background: #0d1117;
+  color: rgb(161 161 170);
+  font-family: jetbrains mono;
+}
+.add-item{
+ /* border: solid red 5px;  */
+ display: flex;
+ justify-content: center;
+ gap: 1rem;
+ flex-wrap: wrap;
+
+}
+
+#input,
+ #botao-add-task{
+  border: none;
+  font-size: 1rem;
+  outline: none;
+  padding: 1rem;
+}
+#input{
+  width: 20rem;
+  border-radius: 1rem;
+  background-color: rgb(24 24 27);
+}
+#botao-add-task{
+  background-color: rgb(24 24 27);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  transition: 400ms;
+  
+}
+#botao-add-task:hover{
+ background-color: rgb(10 10 10);
+}
+#to-do-list{
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  gap: 1rem;
+
+}
+
+#to-do-list li{
+  list-style-type: none;
+  font-size: 1.4rem;
+  text-transform: capitalize;
+  display: flex;
+  justify-content: space-between;
+}
+
+.lista-task{
+  
+ 
+  
 }
